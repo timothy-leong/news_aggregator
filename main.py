@@ -57,6 +57,7 @@ shows = [
     "2Mk6QICNrew2ya93Bv3eWX",  # Chat With Traders
     "64cCsH4LCyO5U52xUU4Pax",  # BBC Documentary Podcast
     "4LkuKmIv7MRbpgtTZk3pUX",  # FT World Weekly
+    "2ZFDmgDS2Z6xccP51s1zFQ",  # The Economist Podcast
 ]
 
 # Clean out the playlist
