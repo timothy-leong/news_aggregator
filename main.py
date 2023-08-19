@@ -50,11 +50,13 @@ while my_playlists['next']:
 # Decide which shows you want to catch up on
 shows = [
     '7sDXM8BlxsUqzL2IqmLqwE', # Markets Daily Crypto Roundup
+    '05uLjJxkVgQsRk8LWLCLpx', # Wall Street Breakfast
     '3wBfqov60qDZbEVjPHo0a8', # BBC Global News Podcast
     '1410RabA4XOqO6IV8p0gYF', # FT News Briefing
     '2Shpxw7dPoxRJCdfFXTWLE', # Philosophize This
     '2Mk6QICNrew2ya93Bv3eWX', # Chat With Traders
     '64cCsH4LCyO5U52xUU4Pax', # BBC Documentary Podcast
+    '4LkuKmIv7MRbpgtTZk3pUX', # FT World Weekly
 ]
 
 # Clean out the playlist
