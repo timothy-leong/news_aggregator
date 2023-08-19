@@ -61,12 +61,16 @@ shows = [
 
 # Clean out the playlist
 items = sp.playlist_items(news_playlist_id, fields='items.track.uri')['items']
+tracks_to_remove = []
 for item in items:
   if item['track'] is not None:
       uri = item['track']['uri']
-      sp.playlist_remove_all_occurrences_of_items(news_playlist_id, [uri])
+      tracks_to_remove.append(uri)
+sp.playlist_remove_all_occurrences_of_items(news_playlist_id, tracks_to_remove)
 
 # For each show, take only the latest episode
+episodes_to_add = []
 for show in shows:
   latest_show = sp.show_episodes(show, limit=1)['items'][0]['uri']
-  sp.playlist_add_items(news_playlist_id, [latest_show])
+  episodes_to_add.append(latest_show)
+sp.playlist_add_items(news_playlist_id, episodes_to_add)
