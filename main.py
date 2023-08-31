@@ -56,11 +56,10 @@ shows = [
     "2Shpxw7dPoxRJCdfFXTWLE",  # Philosophize This
     "2Mk6QICNrew2ya93Bv3eWX",  # Chat With Traders
     "64cCsH4LCyO5U52xUU4Pax",  # BBC Documentary Podcast
-    "4LkuKmIv7MRbpgtTZk3pUX",  # FT World Weekly
     "2ZFDmgDS2Z6xccP51s1zFQ",  # The Economist Podcast
     "3IM0lmZxpFAY7CwMuv9H4g",  # The New York Times Daily
     "59176gU8vcFho6Sc1dm3Lu",  # WSJ What's News
-    "2dv0FyEGzwXAtQKQ74k8Dq",  # WSJ Opinion: Foreign Edition
+    "51MrXc7hJQBE2WJf2g4aWN",  # WSJ Tech News Briefing
 ]
 
 # Clean out the playlist
